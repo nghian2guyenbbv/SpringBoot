@@ -43,6 +43,9 @@ public Customer(String firstName, String lastName, String email) {
 	this.lastName = lastName;
 	this.email = email;
 }
+public Customer() {
+	super();
+}
 
 
 }

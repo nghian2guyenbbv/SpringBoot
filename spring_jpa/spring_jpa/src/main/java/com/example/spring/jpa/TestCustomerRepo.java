@@ -14,5 +14,8 @@ public class TestCustomerRepo {
  public void createCustomer() {
 	 customerService.createCustomer(customer);
  }
+ public void deleteCustomer(int idCustomer) {
+	 customerService.deleteCustomerById(idCustomer);
+ }
 }
 

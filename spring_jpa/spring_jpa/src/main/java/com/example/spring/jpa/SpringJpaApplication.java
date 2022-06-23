@@ -16,7 +16,8 @@ public class SpringJpaApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(SpringJpaApplication.class, args);
 		TestCustomerRepo repo =  context.getBean(TestCustomerRepo.class);
-		repo.createCustomer();
+		//repo.createCustomer();
+		repo.deleteCustomer(3);
 	}
 
 }
